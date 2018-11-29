@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace TreeTraversal
 {
 
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -26,11 +26,11 @@ namespace TreeTraversal
 
 
             //Recursive 
-            printPreorder2(tree.root);
-            Console.WriteLine();
-            printInorder2(tree.root);
-            Console.WriteLine();
-            printPostorder2(tree.root);
+            //printPreorder2(tree.root);
+            //Console.WriteLine();
+            //printInorder2(tree.root);
+            //Console.WriteLine();
+            //printPostorder2(tree.root);
 
             Console.ReadLine();
 
